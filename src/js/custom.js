@@ -5,8 +5,9 @@ function init(){
 }
 function onClickInfo(){
     var origen=$('#city_origen').val();
-    var destino=$('#city_destiny').val();
-    if(origen==null|| origen==0 && destino==null|| destino==0){
+    alert('origen');
+    var destino=$('#city_destiny').attr('value');
+    if(origen==0 && destino==0){
         alert("elige un destino");
     }
 }
