@@ -2,6 +2,9 @@
 * {
   outline: 1px solid rgba(0, 255, 0, 0.3); }
 
+h4 {
+  letter-spacing: 2.5px; }
+
 /*********************MAP-BACKGROUND*************************/
 .themap {
   height: 100%;
@@ -25,17 +28,19 @@
   margin-top: 80px; }
   .box-info .color {
     background: #fff;
-    padding: 10px; }
-  .box-info h4 {
-    letter-spacing: 2.5px; }
+    padding: 20px; }
   .box-info select {
-    border: 1px solid #fcb425; }
+    border: 1px solid #fcb425;
+    border-radius: none; }
 
 /*********************INFO-TRANSPORT*************************/
 .info-transport ul img {
   width: 40px;
   height: 40px; }
+.info-transport ul span {
+  letter-spacing: 3px; }
 .info-transport .color2 {
-  background: #fff; }
+  background: #fff;
+  padding: 12px; }
 
 /*# sourceMappingURL=main.css.map */

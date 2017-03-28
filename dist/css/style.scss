@@ -1,9 +1,12 @@
-
+$letter-space:2.5px;
 /*********************outline*************************/
+
 *{
   outline: 1px solid rgba(0,255,0,0.3);  
 }
-
+ h4{
+        letter-spacing: $letter-space;
+    }
 /*********************MAP-BACKGROUND*************************/
 .themap{
     height: 100%; 
@@ -34,13 +37,11 @@
     
     .color{
         background: #fff;
-        padding: 10px;
-    }
-    h4{
-        letter-spacing: 2.5px;
+        padding: 20px;
     }
     select{
         border: 1px solid rgb(252,180,37);
+        border-radius: none;
     }
     
     
@@ -52,8 +53,12 @@
             width: 40px;
             height: 40px;
         }
+        span{
+            letter-spacing: 3px;
+        }
     }
     .color2{
         background: #fff;
+        padding: 12px;
     }
 }
