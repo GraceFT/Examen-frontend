@@ -30,7 +30,7 @@
 		    <div class="row box-info">
 		        <div class="col-md-4 col-xs-8 col-sm-8 color">
 		            <h4>ORIGEN</h4>
-                      <select class="form-control" id="start";>
+                      <select class="form-control city_origen" id="start";>
                         <option value="inicio">Selecciona</option>
                         <option value="Arica, ch">Arica</option>
                           <option value="iquique, ch">Iquique</option>
@@ -49,7 +49,7 @@
                           <option value="punta arenas, ch">Punta Arenas</option>
                                               </select>
                     <h4>DESTINO</h4>
-                      <select class="form-control" id="end">
+                      <select class="form-control city_destino" id="end">
                        <!--ciudades-destino-->
                           <option value="inicio">Selecciona</option>
                         <option value="Arica, ch">Arica</option>
@@ -130,8 +130,7 @@
                                       <li> Maximo 10 pasajeros</li>
                                   </ul>
                                 </li>
-                                  
-                              <li><small>$3680</small></li>
+                              <li class="pull-right"><small>$3680</small></li>
                             </ul>
                          </label>
                         </div>
@@ -151,7 +150,10 @@
                             </ul>
                          </label>
                     </div>
-                    <p>Cantidad de Pasajeros:</p>
+                    <ul class="list-unstyled list-inline">
+                        <li>Cantidad de pasajeros</li>
+                        <li><input type="text"></li>
+                    </ul>
                 </div>
             </div>
 		</div>
