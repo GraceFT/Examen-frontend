@@ -17,20 +17,25 @@
     width: 200px; }
 
 /*********************HOME*************************/
+.home .btn {
+  background-color: #fcb425;
+  color: #fff; }
+
 .box-info {
-  margin-top: 100px; }
+  margin-top: 80px; }
   .box-info .color {
-    background: #fff; }
+    background: #fff;
+    padding: 10px; }
   .box-info h4 {
     letter-spacing: 2.5px; }
   .box-info select {
     border: 1px solid #fcb425; }
-  .box-info button {
-    background-color: #fcb425; }
 
 /*********************INFO-TRANSPORT*************************/
 .info-transport ul img {
   width: 40px;
   height: 40px; }
+.info-transport .color2 {
+  background: #fff; }
 
 /*# sourceMappingURL=main.css.map */

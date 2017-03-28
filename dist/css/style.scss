@@ -22,10 +22,19 @@
 }
 
 /*********************HOME*************************/
+.home{
+    .btn{
+        background-color: rgb(252,180,37);
+        color: #fff;
+    }
+   
+}
 .box-info{
-    margin-top: 100px;
+    margin-top: 80px;
+    
     .color{
         background: #fff;
+        padding: 10px;
     }
     h4{
         letter-spacing: 2.5px;
@@ -33,10 +42,7 @@
     select{
         border: 1px solid rgb(252,180,37);
     }
-    button{
-        background-color: rgb(252,180,37);
-        
-    }
+    
     
 }
 /*********************INFO-TRANSPORT*************************/
@@ -46,5 +52,8 @@
             width: 40px;
             height: 40px;
         }
+    }
+    .color2{
+        background: #fff;
     }
 }

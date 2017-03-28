@@ -6,7 +6,6 @@
 	<title>Examen Herramientas Productividad</title>
 	<link rel="stylesheet" href="dist/css/main.css">
 	<link rel="stylesheet" href="dist/css/bootstrap.css">
-	<link rel="stylesheet" href="dist/css/font-awesome.css">
 	<!--REQUIRED STYLE SHEETS-->
 </head>
 <body>
@@ -17,72 +16,73 @@
 		<div class="container">
             <div class="row">
                 <div class="col-md-6 col-xs-6 col-sm-6">
-		        <img src="docs/logo-gris.jpg" alt="logo-gris" class="img-responsive">
-		    </div>
-		    <div class="col-md-6 col-xs-6 col-sm-6 ">
-		        <i class="fa fa-info-circle pull-right"></i>
-		    </div>    
+		            <img src="docs/logo-gris.jpg" alt="logo-gris" class="img-responsive">
+		        </div>
+		        <div class="col-md-6 col-xs-6 col-sm-6 ">
+		            <i class="fa fa-info-circle pull-right"></i>
+		        </div>    
             </div>
 		</div>
 	</div>
 <!----------------END NAV SECTION------------->
-	<div id="home-sec">   
+	<div id="home-sec" class="home">   
 		<div class="container">
 		    <div class="row box-info">
-		        <div class="col-md-3 col-xs-3 col-sm-3 color">
-                    
+		        <div class="col-md-3 col-xs-8 col-sm-8 color">
 		            <h4>ORIGEN</h4>
-                    <div class="form-group">
-                      <select class="form-control" id="city-chile">
-                        <option>Seleccione</option>
-                        <option>Arica</option>
-                        <option>Iquique</option>
-                        <option>Antofagast</option>
-                        <option>Calama</option>
-                        <option>La Serena</option>
-                        <option>Valparaiso</option>
-                        <option>Santiago</option>
-                        <option>Rancagua</option>
-                        <option>Talca</option>
-                        <option>Concepcion</option>
-                        <option>Temuco</option>
-                        <option>Valdivia</option>
-                        <option>Puerto Montt</option>
-                        <option>Coyhaique</option>
-                        <option>Punta Arenas</option>
-                      </select>
+                      <select class="form-control" id="start";>
+                        <option value="0">Selecciona</option>
+                        <option value="1">Arica</option>
+                          <option value="2">Iquique</option>
+                          <option value="3">Antofagast</option>
+                          <option value="4">Calama</option>
+                          <option value="5">La Serena</option>
+                          <option value="6">Valparaiso</option>
+                          <option value="7">Santiago</option>
+                          <option value="8">Rancagua</option>
+                          <option value="9">Talca</option>
+                          <option value="10">Concepcion</option>
+                          <option value="11">Temuco</option>
+                          <option value="12">Valdivia</option>
+                          <option value="13">Puerto Montt</option>
+                          <option value="14">Coyhaique</option>
+                          <option value="15">Punta Arenas</option>
+                                          </select>
                     <h4>DESTINO</h4>
-                
-                      <select class="form-control" id="city-chile">
-                        <option>Seleccione</option>
-                        <option>Arica</option>
-                        <option>Iquique</option>
-                        <option>Antofagast</option>
-                        <option>Calama</option>
-                        <option>La Serena</option>
-                        <option>Valparaiso</option>
-                        <option>Santiago</option>
-                        <option>Rancagua</option>
-                        <option>Talca</option>
-                        <option>Concepcion</option>
-                        <option>Temuco</option>
-                        <option>Valdivia</option>
-                        <option>Puerto Montt</option>
-                        <option>Coyhaique</option>
-                        <option>Punta Arenas</option>
-                      </select>
-                    </div>
+                      <select class="form-control" id="end">
+                       <!--ciudades-destino-->
+                          <option value="0">Selecciona</option>
+                           <option value="1">Arica</option>
+                          <option value="2">Iquique</option>
+                          <option value="3">Antofagast</option>
+                          <option value="4">Calama</option>
+                          <option value="5">La Serena</option>
+                          <option value="6">Valparaiso</option>
+                          <option value="7">Santiago</option>
+                          <option value="8">Rancagua</option>
+                          <option value="9">Talca</option>
+                          <option value="10">Concepcion</option>
+                          <option value="11">Temuco</option>
+                          <option value="12">Valdivia</option>
+                          <option value="13">Puerto Montt</option>
+                          <option value="14">Coyhaique</option>
+                          <option value="15">Punta Arenas</option>
+                    </select>
                 </div> 
             </div>
-            <button>holl</button>
+            <div class="row">
+		        <div class="col-md-3 col-xs-8 col-sm-8 button">
+		            <button id="btn_info" class="btn">buscar</button>
+                </div> 
+            </div>
+            
         </div>
     </div>
-</div>
 <!------END HOME SECTION-->  
-	<section id="info" class="info-transport">
-		<div class="container">
+<section id="info" class="info-transport">
+    <div class="container">
              <div class="row">
-                     <div class="col-md-12 col-xs-12 col-sm-12">
+                     <div class="col-md-4 col-sm-8 col-xs-8 color2">
                        <h3>VEHICULO</h3>
                        <label for="">seleccione</label>
                        <div class="radio">
@@ -168,8 +168,9 @@
 <!-------------------------SCRIPTS------------------------------>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAPgzHzDKyDVwC5g2fdnc7PjOI1Gcj6-08&callback=initMap"
         async defer></script>
-<script src="dist/js/jquery.js"></script>
 <script src="dist/js/appmapa.js"></script>
+<script src="dist/js/jquery.js"></script>
+<script src="dist/js/custom.js"></script>
     
 </body>
 </html>
