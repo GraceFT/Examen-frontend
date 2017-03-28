@@ -6,6 +6,8 @@
 	<title>Examen Herramientas Productividad</title>
 	<link rel="stylesheet" href="dist/css/main.css">
 	<link rel="stylesheet" href="dist/css/bootstrap.css">
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+	<link rel="stylesheet" href="dist/css/sweetalert.css">
 	<!--REQUIRED STYLE SHEETS-->
 </head>
 <body>
@@ -28,7 +30,7 @@
 	<div id="home-sec" class="home">   
 		<div class="container">
 		    <div class="row box-info">
-		        <div class="col-md-4 col-xs-8 col-sm-8 color">
+		        <div class="col-md-4 col-xs-8 col-sm-6 color">
 		            <h4>ORIGEN</h4>
                       <select class="form-control city_origen" id="start";>
                         <option value="inicio">Selecciona</option>
@@ -71,7 +73,7 @@
                 </div> 
             </div>
             <div class="row">
-		        <div class="col-md-3 col-xs-8 col-sm-8 button">
+		        <div class="col-md-3 col-xs-8 col-sm-6 button">
 		            <button id="btn_info" class="btn">buscar</button>
                 </div> 
             </div>
@@ -99,7 +101,7 @@
                                   </ul>
                                 </li>
                                   
-                              <li><small>$3680</small></li>
+                              <li class="pull-right"><span>$3680</span></li>
                             </ul>
                          </label>
                         </div>
@@ -115,7 +117,7 @@
                                   </ul>
                                 </li>
                                   
-                              <li><small>$3680</small></li>
+                              <li class="pull-right"><span>$3680</span></li>
                             </ul>
                          </label>
                         </div>
@@ -127,10 +129,10 @@
                                 <li>
                                   <ul class="list-unstyled">
                                       <li><small>Minivan</small></li>
-                                      <li> Maximo 10 pasajeros</li>
+                                      <li><small>Maximo 10 pasajeros</small></li>
                                   </ul>
                                 </li>
-                              <li class="pull-right"><small>$3680</small></li>
+                              <li class="pull-right"><span>$3680</span></li>
                             </ul>
                          </label>
                         </div>
@@ -146,7 +148,7 @@
                                   </ul>
                                 </li>
                                   
-                              <li><small>$3680</small></li>
+                              <li class="pull-right"><span>$3680</span></li>
                             </ul>
                          </label>
                     </div>
@@ -161,6 +163,11 @@
 <!--END ABOUT SECTION-->
 	<section id="calculator" >
 		<div class="container">
+		    <div class="row">
+		        <div class="col-md-3 col-xs-8 col-sm-8 button">
+		            <button id="btn_info" class="btn">compartir carro</button>
+                </div> 
+            </div>
 		</div>
 	</section>
 <!--END PROJECT SECTION-->
@@ -174,6 +181,7 @@
 <script src="dist/js/appmapa.js"></script>
 <script src="dist/js/jquery.js"></script>
 <script src="dist/js/custom.js"></script>
+
     
 </body>
 </html>

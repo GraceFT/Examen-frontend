@@ -17,7 +17,7 @@ gulp.task('script-jquery',function(){
     .pipe(gulp.dest('./dist/js'))
 });
 gulp.task('sweetalert',function(){
-    return gulp.src('./node_modules/sweetalert/dist/*.js')//raiz
+    return gulp.src('./node_modules/sweetalert/dist/sweetalert.css')//raiz
     .pipe(gulp.dest('./dist/css'))
 });
 gulp.task('style', function() {

@@ -1,9 +1,7 @@
 $letter-space:2.5px;
 /*********************outline*************************/
 
-*{
-  outline: 1px solid rgba(0,255,0,0.3);  
-}
+
  h4{
         letter-spacing: $letter-space;
     }
@@ -37,17 +35,19 @@ $letter-space:2.5px;
     
     .color{
         background: #fff;
-        padding: 20px;
+        padding: 10px;
     }
     select{
         border: 1px solid rgb(252,180,37);
         border-radius: none;
     }
-    
+}
+.home{
     
 }
 /*********************INFO-TRANSPORT*************************/
 .info-transport{
+    display: none;
     ul{
         img{
             width: 40px;
@@ -59,6 +59,11 @@ $letter-space:2.5px;
     }
     .color2{
         background: #fff;
-        padding: 12px;
+        padding: 10px;
     }
 }
+ .radio{
+            span{
+                color:rgb(252,180,37); 
+            }
+        } 
