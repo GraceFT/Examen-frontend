@@ -1,0 +1,36 @@
+/*********************outline*************************/
+* {
+  outline: 1px solid rgba(0, 255, 0, 0.3); }
+
+/*********************MAP-BACKGROUND*************************/
+.themap {
+  height: 100%;
+  width: 100%;
+  position: absolute; }
+
+/*********************NAVBAR*************************/
+.navbar {
+  padding: 15px; }
+  .navbar i {
+    color: #ff0; }
+  .navbar img {
+    width: 200px; }
+
+/*********************HOME*************************/
+.box-info {
+  margin-top: 100px; }
+  .box-info .color {
+    background: #fff; }
+  .box-info h4 {
+    letter-spacing: 2.5px; }
+  .box-info select {
+    border: 1px solid #fcb425; }
+  .box-info button {
+    background-color: #fcb425; }
+
+/*********************INFO-TRANSPORT*************************/
+.info-transport ul img {
+  width: 40px;
+  height: 40px; }
+
+/*# sourceMappingURL=main.css.map */

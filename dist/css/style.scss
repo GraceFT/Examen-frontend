@@ -1,0 +1,50 @@
+
+/*********************outline*************************/
+*{
+  outline: 1px solid rgba(0,255,0,0.3);  
+}
+
+/*********************MAP-BACKGROUND*************************/
+.themap{
+    height: 100%; 
+    width: 100%; 
+    position:absolute;}
+
+/*********************NAVBAR*************************/
+.navbar{
+    padding: 15px;
+    i{
+        color:#ff0;
+    }
+    img{
+        width: 200px;
+    }
+}
+
+/*********************HOME*************************/
+.box-info{
+    margin-top: 100px;
+    .color{
+        background: #fff;
+    }
+    h4{
+        letter-spacing: 2.5px;
+    }
+    select{
+        border: 1px solid rgb(252,180,37);
+    }
+    button{
+        background-color: rgb(252,180,37);
+        
+    }
+    
+}
+/*********************INFO-TRANSPORT*************************/
+.info-transport{
+    ul{
+        img{
+            width: 40px;
+            height: 40px;
+        }
+    }
+}
