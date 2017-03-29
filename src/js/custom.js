@@ -14,6 +14,4 @@ function onClickInfo(){
         $('#info').show();
     }
 }
-function ciudades(){
-    
-}
+
