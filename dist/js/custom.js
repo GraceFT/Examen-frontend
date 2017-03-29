@@ -5,8 +5,8 @@ function init(){
     
 }
 function onClickInfo(){
-    var origen= $('.city_origen').val();
-    var destino= $('.city_destino').val();
+    var origen= $('#start').val();
+    var destino= $('#end').val();
     if(origen=="inicio" && destino=="inicio"){
        alert("selecciona una ciudad")
         //swal('selecciona una ciudad');
@@ -14,4 +14,5 @@ function onClickInfo(){
         $('#info').show();
     }
 }
+
 
