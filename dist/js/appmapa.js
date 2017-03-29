@@ -1,4 +1,4 @@
-/*function initMap(){
+function initMap(){
     navigator.geolocation.getCurrentPosition(mapa,error);
 }
 
@@ -44,7 +44,7 @@ function mapa(position)
         title: 'Car position 3',
         map: mapita,
         icon:'images/car_icon.png'
-    }); 
+    }); */
 }
 
 function error(errorC)
@@ -52,11 +52,11 @@ function error(errorC)
     alert('Error: '+errorC.code+' '+error.message+ '\n\Please prove if are connected '+
   'or permit your location');
     
-}*/
+}
 
 
 
-function initMap() {
+/*function initMap() {
   var directionsService = new google.maps.DirectionsService;
   var directionsDisplay = new google.maps.DirectionsRenderer;
   var map = new google.maps.Map(document.getElementById('map'), {
@@ -84,4 +84,4 @@ function calculateAndDisplayRoute(directionsService, directionsDisplay) {
       window.alert('Directions request failed due to ' + status);
     }
   });
-}
+}*/
