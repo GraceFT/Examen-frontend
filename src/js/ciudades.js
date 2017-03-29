@@ -26,19 +26,6 @@ var ciudades = $.parseJSON(jsonciudad);
          city.append(country);
          cityDest.append(country);
     });
-    var lis = $('option');
-    $.each(lis,function(){
-     $(this).on('change',onClick);
-    //console.log(lis);
-     });
 }
 ///////////////////////////////////////////////////SET FLAG AND CODE////////////////////////////////////////////
-function onClick(evt)
-{
-var kilometro=$(evt.currentTarget).attr("value");
-console.log(kilometro);
-var nameCity=$(evt.currentTarget).find(".name").text();
-//console.log(nameCity);
- localStorage.setItem("kilometro",kilometro);
- localStorage.setItem("nameCity",nameCity);
-}
+
