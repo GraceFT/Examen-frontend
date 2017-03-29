@@ -5,14 +5,17 @@ function init(){
     
 }
 function onClickInfo(){
-    var origen= $('#start').val();
-    var destino= $('#end').val();
-    if(origen=="inicio" && destino=="inicio"){
+    var origen= $('.city_origen').val();
+    var destino= $('.city_destino').val();
+    if(origen=="" && destino==""){
        alert("selecciona una ciudad")
         //swal('selecciona una ciudad');
     }else{
         $('#info').show();
     }
+}
+function operacion(){
+    
 }
 
 
